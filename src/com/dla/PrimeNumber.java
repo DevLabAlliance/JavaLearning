@@ -9,6 +9,7 @@ public class PrimeNumber {
 		//Taking the user from the input
 		Scanner dl = new Scanner(System.in);
 		num=dl.nextInt();
+		dl.close();
 		for(int i=2;i<=num/2;i++)
 		{
 			del=num%i;
