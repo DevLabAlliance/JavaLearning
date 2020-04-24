@@ -1,7 +1,12 @@
 package javapractice;
 
 import java.util.Scanner;
+
 //for prime number
+/**
+ * @author Devlabs Alliance
+ *
+ */
 public class PrimeFirst {
  public static void main(String[] args) {
 	 Scanner s= new Scanner(System.in);

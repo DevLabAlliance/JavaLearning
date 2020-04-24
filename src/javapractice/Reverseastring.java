@@ -1,7 +1,21 @@
 package javapractice;
+
 //Reverse a string using recursion
+/**
+ * @author Devlabs Alliance
+ *
+ */
 public class Reverseastring {
+	public static void main(String[] args)
+	{
+		String s="Hello";
+		System.out.println(Reverseastring.reverse(s));  
+	}
 	//method for reversing a string
+	/**
+	 * @param str
+	 * @return
+	 */
 	public static String reverse(String str)
 	{
 		if(str==null||str.length()<=1)
@@ -10,9 +24,5 @@ public class Reverseastring {
 		}
 		return(reverse(str.substring(1))+str.charAt(0));
 	}
-	public static void main(String[] args)
-	{
-		String s="Hello";
-		System.out.println(Reverseastring.reverse(s));  
-	}
+	
 }

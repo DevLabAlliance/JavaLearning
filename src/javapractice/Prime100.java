@@ -1,6 +1,11 @@
 package javapractice;
 import java.util.*;
+
 //to print first 100 prime numbers
+/**
+ * @author Devlabs Alliance
+ *
+ */
 public class Prime100 {
 public static void main(String[] args) {
 	boolean flag=true;

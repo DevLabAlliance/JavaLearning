@@ -1,5 +1,10 @@
 package javapractice;
 import java.util.*;
+
+/**
+ * @author Devlabs Alliance
+ *
+ */
 public class GenerateRandom {
 	public static void main(String[] args) {
 		//here Random is a class and nextInt() is a method of class Random 

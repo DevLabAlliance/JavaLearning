@@ -1,5 +1,10 @@
 package javapractice;
 import java.util.*;
+
+/**
+ * @author Devlabs Alliance
+ *
+ */
 public class SumandAverage {
 	public static void main(String[] args) {
 		Scanner s=new Scanner(System.in);
@@ -13,6 +18,7 @@ public class SumandAverage {
 			sum=sum+num;
 		}
 		int avg=sum/n;
+		s.close();
 	System.out.println("The sum and average of the numbers are"+sum+"  "+avg);
 	}
 

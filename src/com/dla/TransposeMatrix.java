@@ -18,6 +18,7 @@ public class TransposeMatrix {
 				mat[i][j]=s.nextInt();
 			}
 		}
+		s.close();
 		System.out.println(" the original matrix is ");
 		for(int i=0;i<3;i++)
 		{

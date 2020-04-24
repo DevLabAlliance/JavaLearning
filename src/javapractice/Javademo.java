@@ -1,5 +1,10 @@
 package javapractice;
 
+
+/**
+ * @author Devlabs Alliance
+ *
+ */
 public class Javademo implements  FunnInter {           //while giving error still working???????
 	//this class must implement all the methods of an interface
 

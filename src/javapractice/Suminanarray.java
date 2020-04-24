@@ -11,6 +11,7 @@ public class Suminanarray {
 			arr[i]=s.nextInt();
 			sum=sum+arr[i];
 		}
+		s.close();
 		System.out.println("Sum of array elements is "+sum);
 	}
 

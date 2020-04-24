@@ -1,6 +1,11 @@
 package javapractice;
 import java.util.*;
 
+
+/**
+ * @author Devlabs Alliance
+ *
+ */
 public class ReversinganArray {
 	
 	public static void main(String[] args)
@@ -21,6 +26,7 @@ public class ReversinganArray {
 					arr[i]=arr[arr.length-i];
 				arr[arr.length-i]=temp;
 				}
+				sc.close();
 				for(int i:arr)
 			System.out.println("The reversed elements are "+arr[i]);	
 	}

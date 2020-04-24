@@ -1,6 +1,11 @@
 package com.dla;
 
 import java.util.Scanner;
+/**
+ * @author Devlabs Alliance
+ *
+ */
+
 
 public class SmallestNumber {
 	// to find smallest number using ternary operator

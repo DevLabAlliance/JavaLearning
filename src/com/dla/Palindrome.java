@@ -1,7 +1,21 @@
 package com.dla;
 
+
+/**
+ * @author Devlabs Alliance
+ *
+ */
 public class Palindrome {
-	 public void palindrome(int n)
+	 
+	 public static void main(String ar[]) {
+		 Palindrome p=new Palindrome();
+		 p.palindrome(12321);
+		 p.palindrome(1456838);
+}
+	 /**
+	 * @param n
+	 */
+	public void palindrome(int n)
      {
      	int temp,r,sum=0;
      	temp=n;
@@ -18,9 +32,4 @@ public class Palindrome {
      		else
      			System.out.println("No is not palindrome ");
  }
-	 
-	 public static void main(String ar[]) {
-		 Palindrome p=new Palindrome();
-		 p.palindrome(12321);
-		 p.palindrome(1456838);
-}}
+	}

@@ -1,5 +1,10 @@
 package com.dla;
+ 
 import java.util.*;
+/**
+ * @author Devlabs Alliance
+ *
+ */
 public class GreatestNumber {
 	// to find greatest number using ternary operator
 public static void main(String[] args) {

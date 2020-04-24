@@ -1,6 +1,21 @@
 package javapractice;
 
+
+/**
+ * @author Devlabs Alliance
+ *
+ */
 public class Occurencesofchar {
+	public static void main(String[] args)
+	{
+		String str="Hello there";
+		Occurencesofchar.occur(str);// calling the static method
+		
+	}
+
+	/**
+	 * @param str
+	 */
 	public static void occur(String str)
 	{//char[]=new int char[];
 		int count=0;
@@ -28,11 +43,5 @@ public class Occurencesofchar {
 	}
 	
 	}
-	public static void main(String[] args)
-	{
-		String str="Hello there";
-		Occurencesofchar.occur(str);// calling the static method
-		
-	}
-
+	
 }

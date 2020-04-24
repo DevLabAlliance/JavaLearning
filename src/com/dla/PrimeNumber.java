@@ -1,6 +1,11 @@
 //not running
 package com.dla;
 import java.util.Scanner;
+/**
+ * @author Devlabs Alliance
+ *
+ */
+
 public class PrimeNumber {
 	public static void main(String[] args)
 	{

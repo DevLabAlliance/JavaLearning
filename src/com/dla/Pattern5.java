@@ -1,5 +1,11 @@
 package com.dla;
 import java.util.*;
+
+/**
+ * @author Devlabs Alliance
+ *
+ */
+
 /*
     1
    1 2
@@ -9,6 +15,16 @@ import java.util.*;
   
  */
 public class Pattern5 {
+	public static void main(String[] args) {
+		Scanner s = new Scanner(System.in);
+		System.out.println("Enter the number of rows ");
+		int n=s.nextInt();
+		pattern(n);
+		s.close();
+	}
+	/**
+	 * @param n
+	 */
 	public static void pattern(int n)
 	{
 		for(int i=1;i<=n;i++)
@@ -27,11 +43,5 @@ public class Pattern5 {
 		
 		
 	}
-public static void main(String[] args) {
-	Scanner s = new Scanner(System.in);
-	System.out.println("Enter the number of rows ");
-	int n=s.nextInt();
-	pattern(n);
-	s.close();
-}
+
 }

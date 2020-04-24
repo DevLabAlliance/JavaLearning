@@ -5,7 +5,7 @@ package com.dla;
  *
  */
 /**
- * @author devan
+ * 
  *
  */
 public class Frequencyinamatrix {

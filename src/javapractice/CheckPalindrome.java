@@ -1,6 +1,23 @@
 package javapractice;
+
 //Checking palindrome string using recursion
+/**
+ * @author Devlabs Alliance
+ *
+ */
 public class CheckPalindrome {
+	
+	public static void main(String[] args)
+	{
+		String s="nagesh";
+		Boolean h=Palin(s);
+		System.out.print(h);
+		
+	}
+	/**
+	 * @param str
+	 * @return
+	 */
 	public static Boolean Palin(String str)
 	{// String first =str.substring(0,1);
 	//String last=str.substring(str.length()-1,str.length());
@@ -17,11 +34,6 @@ public class CheckPalindrome {
 	return		(Palin(str.substring(1,str.length()-1)));
 	
 	}
-	public static void main(String[] args)
-	{
-		String s="nagesh";
-		Boolean h=Palin(s);
-		System.out.print(h);
-	}
+	
 
 }

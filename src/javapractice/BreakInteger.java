@@ -1,9 +1,23 @@
 package javapractice;
 import java.util.*;
+/**
+ * @author Devlabs Alliance
+ *
+ */
 //Breaking integer into digits
 
 public class BreakInteger {
+	 public static void main(String[] args) {
+			Scanner s = new Scanner(System.in);
+			System.out.println("Enter the input number");
+			int n=s.nextInt();
+			breakint(n);
+			s.close();
+		}
 	static int count=0;
+	/**
+	 * @param n
+	 */
 	public static void breakint(int n)
 	{  //counting digits in an integer
 		int temp=n;
@@ -19,10 +33,5 @@ public class BreakInteger {
 		n=n/10;
 		count--;
 	}}
- public static void main(String[] args) {
-	Scanner s = new Scanner(System.in);
-	System.out.println("Enter the input number");
-	int n=s.nextInt();
-	breakint(n);
-}
+
 }

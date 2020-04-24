@@ -1,15 +1,12 @@
 package javapractice;
 import java.util.*;
 
+
+/**
+ * @author Devlabs Alliance
+ *
+ */
 public class SimpleInterest {
-	public static int interest(int p,int r,int t)
-	{
-		return (p*r*t/100);
-	}
-	public void compoundinterest()
-	{
-		
-	}
 	public static void main(String[] args) {
 		Scanner s=new Scanner(System.in);
 		System.out.println("Enter the principal ");
@@ -19,7 +16,14 @@ public class SimpleInterest {
 		System.out.println("Enter the time ");
 		int t=s.nextInt();
 		int h=interest(p,r,t);
+		s.close();
 	System.out.println("The simple interest is "+h);
 	}
+	public static int interest(int p,int r,int t)
+	{
+		return (p*r*t/100);
+	}
+	
+	
 
 }
