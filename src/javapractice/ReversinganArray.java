@@ -2,22 +2,27 @@ package javapractice;
 import java.util.*;
 
 public class ReversinganArray {
-	public static void reverse()
-	{
-		
-	}
-
+	
 	public static void main(String[] args)
 	{
 		Scanner sc =new Scanner(System.in);
-		int n=sc.nextInt();		
-		int arr[];
-				for(int i=0;i<=n;i++)
+		System.out.println("Enter the no of elements in an array ");
+		//int n=sc.nextInt();		
+		int arr[]=new int[4];
+				for(int i=0;i<arr.length;i++)
 				{
 					arr[i]=sc.nextInt();
 				}
-			
-				
+				for(int i:arr)
+				System.out.println("The original elements are "+arr[i]);
+			//swapping
+				for(int i=0;i<arr.length;i++)
+				{ int temp=arr[i];
+					arr[i]=arr[arr.length-i];
+				arr[arr.length-i]=temp;
+				}
+				for(int i:arr)
+			System.out.println("The reversed elements are "+arr[i]);	
 	}
 	
 }

@@ -2,6 +2,11 @@ package com.dla;
 
 import java.util.Scanner;
 
+
+/**
+ * @author Devlabs Alliance
+ *
+ */
 public class Pattern14 {
 	public static void main(String[] args) {
 		Scanner s = new Scanner(System.in);

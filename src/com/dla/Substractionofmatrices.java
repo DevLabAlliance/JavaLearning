@@ -1,8 +1,25 @@
 package com.dla;
+/**
+ * @author Devlabs Alliance
+ *
+ */
+
 
 public class Substractionofmatrices {
+	   
+	public static void main(String ar[])
+		{
+			int [][] matrices1= {{5,4,3},{3,4,7},{5,9,0}};
+			int [][] matrices2= {{3,5,6},{4,5,2},{4,0,5}};
+			 Substractionofmatrices m=new  Substractionofmatrices();
+			 m.subs(matrices1, matrices2);
+	}
 
 	//TO SUBSTRACT TWO MATRICES
+	/**
+	 * @param n
+	 * @return
+	 */
 	public int cube(int n)
 	{
 		return (n*n*n);
@@ -81,12 +98,5 @@ public class Substractionofmatrices {
 			}
 		}
 	
-    
-public static void main(String ar[])
-	{
-		int [][] matrices1= {{5,4,3},{3,4,7},{5,9,0}};
-		int [][] matrices2= {{3,5,6},{4,5,2},{4,0,5}};
-		 Substractionofmatrices m=new  Substractionofmatrices();
-		 m.subs(matrices1, matrices2);
-}
+ 
 }

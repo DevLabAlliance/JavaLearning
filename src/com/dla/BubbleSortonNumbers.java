@@ -1,10 +1,34 @@
 package com.dla;
+
 import java.util.*;
 //Ascending order
+/**
+ * @author Devlabs Alliance
+ *
+ */
 public class BubbleSortonNumbers {
+	public static void main(String[] args) {
+		Scanner s = new Scanner(System.in);
+		System.out.println("Enter the number of integers you want to sort");
+		int n=s.nextInt();
+		int []arr= new int [n];
+	  System.out.println("Enter the elements ");
+	  for(int i=0;i<n;i++)
+	  {
+		  arr[i]=s.nextInt();
+	  }
+	  s.close();
+	  bubble(arr,n);
+	  
+	}
 	static int temp,i;
+	/**
+	 * @param arr
+	 * @param n
+	 */
 	public static void bubble( int [] arr,int n)
-	{int temp,i;
+	{
+		int temp,i;
 		for( i=0;i<n-1;i++)
 		{
 			for(int j=0;j<n-i-1;j++)
@@ -24,18 +48,5 @@ public class BubbleSortonNumbers {
 		}
 	}
 
-public static void main(String[] args) {
-	Scanner s = new Scanner(System.in);
-	System.out.println("Enter the number of integers you want to sort");
-	int n=s.nextInt();
-	int []arr= new int [n];
-  System.out.println("Enter the elements ");
-  for(int i=0;i<n;i++)
-  {
-	  arr[i]=s.nextInt();
-  }
-  s.close();
-  bubble(arr,n);
-  
-}
+
 }

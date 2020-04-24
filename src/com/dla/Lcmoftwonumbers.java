@@ -1,7 +1,12 @@
 package com.dla;
 
 
+
 	import java.util.Scanner;
+	/**
+	 * @author Devlabs Alliance
+	 *
+	 */
 	public class Lcmoftwonumbers {
 		public static void main(String args[]) {
 			int a,b,l;
@@ -9,6 +14,7 @@ package com.dla;
 			Scanner sc = new Scanner(System.in);
 			a=sc.nextInt();
 			b=sc.nextInt();
+			sc.close();
 			for(l=1;l<=a*b;l++)
 				if(l%a==0&&l%b==0)
 					break;

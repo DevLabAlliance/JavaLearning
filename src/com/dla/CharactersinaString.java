@@ -1,6 +1,11 @@
 package com.dla;
-import java.util.*;
 
+
+
+/**
+ * @author  Devlabs Alliance
+ *
+ */
 public class CharactersinaString {
 
 
@@ -27,6 +32,7 @@ public class CharactersinaString {
 		}
 		System.out.println("No of vowels "+vcount);
 		System.out.println("No of consonants "+ccount);
+		
 	}
 }
 

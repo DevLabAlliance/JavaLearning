@@ -1,6 +1,10 @@
 package com.dla;
 
 import java.util.Scanner;
+/**
+ * @author Devlabs Alliance
+ *
+ */
 
 //to find the sum of each row and column in a matrix 
 public class Sum {
@@ -36,6 +40,11 @@ public class Sum {
 		add(mat,rows,cols);
 	}
 
+	/**
+	 * @param matrix
+	 * @param rows
+	 * @param cols
+	 */
 	private static void add(int[][] matrix,int rows, int cols) {
 		int sum=0;
 		// TODO Auto-generated method stub

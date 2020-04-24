@@ -1,9 +1,20 @@
 package com.dla;
 
+
+/**
+ * @author Devlabs Alliance
+ *
+ */
 public class Armstrong {
 
 	 //ARMSTRONG NO
 	//153=  1*1*1+5*5*5+3*3*3=153
+	
+	 public static void main(String ar[])
+	   	{  Armstrong s=new  Armstrong();
+	    s.armstrong(123);
+	    s.armstrong(153);
+	}
     public void armstrong(int n)
     {
    	 int temp,r,sum=0;
@@ -23,8 +34,4 @@ public class Armstrong {
     		else
     			System.out.println("No is not armstrong ");
    	 }
-    public static void main(String ar[])
-   	{  Armstrong s=new  Armstrong();
-    s.armstrong(123);
-    s.armstrong(153);
-}}
+   }

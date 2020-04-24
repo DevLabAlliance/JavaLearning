@@ -1,6 +1,10 @@
 package com.dla;
 
 import java.util.Scanner;
+/**
+ * @author Devlabs Alliance
+ *
+ */
 
 public class UpperTriangle {
 	public static void main(String[] args) {

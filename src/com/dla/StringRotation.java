@@ -2,6 +2,11 @@ package com.dla;
 //java program to check if one string is a rotation of another string 
 //contains method 
 import java.util.*;
+/**
+ * @author Devlabs Alliance
+ *
+ */
+
 public class StringRotation {
 	public static void main(String[] args) {
 		System.out.println("Enter the original string ");

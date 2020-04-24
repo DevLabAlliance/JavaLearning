@@ -1,19 +1,25 @@
 package com.dla;
+//not running
 /*
- 1 
- 2 3
- 4 5 6
- 7 8 9 10
- 
+ 54321
+ 4321
+ 321
+ 21
+ 1
+ 1
+ 21
+ 321
+ 4321
+ 54321
  */
-import java.util.Scanner;
+import java.util.*;
+
 /**
  * @author Devlabs Alliance
  *
  */
 
-public class Pattern8 {
-	static int k=1;
+public class Pattern4 {
 	public static void main(String[] args) {
 		Scanner s = new Scanner(System.in);
 		System.out.println("Enter the number of rows ");
@@ -21,20 +27,29 @@ public class Pattern8 {
 		pattern(n);
 		s.close();
 	}
-
 	/**
 	 * @param n
 	 */
-	private static void pattern(int n) {
-		for(int i=1;i<=n;i++)
+	public  static void pattern(int n)
+	{
+		for(int i=n;i>=1;i--)
 		{
-			for(int j=1;j<=i;j++)
+			for(int j=i;j>=1;j--)
 			{
-				System.out.print(k+" ");
-				k++;
+				System.out.print(j+" ");
 			}
 			System.out.println();
 		}
+		
+		for(int i=1;i<=n;i++)
+		{
+			for(int j=i;j>=1;j++)
+			{
+				System.out.print(j+" ");
+			}
+			System.out.println();
+		}
+			
 		
 	}
 

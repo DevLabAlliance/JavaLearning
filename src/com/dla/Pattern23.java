@@ -7,46 +7,52 @@ import java.util.Scanner;
  *
  */
 
-/*
-            1 2 3 4 5 4 3 2 1
-            2 3 4 5 4 3 2
-            3 4 5 4 3
-            4 5 4
-            5
-            
- */
 
-public class Pattern21 {
-
+public class Pattern23 {
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		Scanner s = new Scanner(System.in);
 		System.out.println("Enter the number of rows ");
 		int n=s.nextInt();
 		pattern(n);
 		s.close();
-
-
 	}
 
-	/**
-	 * @param n
-	 */
 	private static void pattern(int n) {
 		// TODO Auto-generated method stub
+	/*	
 		for(int i=1;i<=n;i++)
 		{
-			for(int j=i;j<=n;j++)
+			for(int j=n;j<=i;j--)
 			{
 				System.out.print(j+" ");
 			}
-			for(int k=n-1;k>=i;k--)
+			for(int k=i+1;k<=n;k++)
 			{
-				System.out.print(k+" ");
+				System.out.print(5+" ");
+			}
+			System.out.println();
+		}
+*/
+		
+		
+		for(int i=n;i>=1;i--)
+		{
+			for(int j=i;j<n;j++)
+			{
+				System.out.print(j+" ");
+			}
+			for(int k=n-i;k<n;k++)     //k==0 when i==5
+			{
+				System.out.print(5+" ");
 			}
 			System.out.println();
 		}
 		
-	}
+		
+		
+		
+		
+		
 
+	}
 }

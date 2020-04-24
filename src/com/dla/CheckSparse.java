@@ -2,6 +2,10 @@ package com.dla;
 
 import java.util.Scanner;
 
+/**
+ * @author Devlabs Alliance
+ *
+ */
 public class CheckSparse {
 	public static void main(String[] args) {
 
@@ -34,6 +38,11 @@ public class CheckSparse {
 		sparse(mat,rows,cols);		
 	}
 
+	/**
+	 * @param mat
+	 * @param rows
+	 * @param cols
+	 */
 	private static void sparse(int[][] mat, int rows, int cols) {
 		// TODO Auto-generated method stub
 		int count=0;

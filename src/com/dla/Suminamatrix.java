@@ -1,8 +1,21 @@
 package com.dla;
-
+/**
+ * @author Devlabs Alliance
+ *
+ */
+//TO FIND SUM OF EACH ROW AND EACH COLUMN
 public class Suminamatrix {
 	 
-    //TO FIND SUM OF EACH ROW AND EACH COLUMN
+    public static void main(String ar[])
+   	{
+    	Suminamatrix s=new Suminamatrix();
+    	
+    int b[][]= {{1,2,3},{4,5,6},{7,8,9}};
+    
+   	s.sum(b);
+   	}
+	 
+   
     public void sum(int[][]mat)
     {int r,c,sumr,csum;
     r=mat.length;
@@ -28,14 +41,6 @@ public class Suminamatrix {
     }
    
     }
-    
-    public static void main(String ar[])
-   	{
-    	Suminamatrix s=new Suminamatrix();
-    	
-    int b[][]= {{1,2,3},{4,5,6},{7,8,9}};
-    
-   	s.sum(b);
-   	}
+   
     
 }

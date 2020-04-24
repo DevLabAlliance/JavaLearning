@@ -1,6 +1,17 @@
 package com.dla;
 
+/**
+ * @author Devlabs Alliance
+ *
+ */
 public class Leapyear {
+	public static void main(String args[]) {
+		Leapyear.leapyr(2006);
+		Leapyear.leapyr(2016);
+	}
+	/**
+	 * @param n
+	 */
 	public static void leapyr(int n) {
 		if(n%4==0) {
 			System.out.println("The year is a leap year");
@@ -18,9 +29,6 @@ public class Leapyear {
 			System.out.println("The year is  not a leap year");	
 		}
 	}
-	public static void main(String args[]) {
-		Leapyear.leapyr(2006);
-		Leapyear.leapyr(2016);
-	}
+	
 
 }

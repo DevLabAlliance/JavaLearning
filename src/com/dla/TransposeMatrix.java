@@ -1,6 +1,10 @@
 package com.dla;
 
 import java.util.Scanner;
+/**
+ * @author Devlabs Alliance
+ *
+ */
 
 public class TransposeMatrix {
 	public static void main(String[] args) {
@@ -25,6 +29,9 @@ public class TransposeMatrix {
 		}	
 		transpose(mat);
 	}
+		/**
+		 * @param matrix
+		 */
 		public static void transpose(int [][]matrix)
 		{
 			System.out.println(" The tranposed matrix is ");

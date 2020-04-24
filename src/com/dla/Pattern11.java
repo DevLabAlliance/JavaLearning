@@ -1,4 +1,12 @@
 package com.dla;
+/*   Pascal triangle
+                       1
+                      1 1
+                     1 2 1
+                    1 3 3 1
+                   1 4 6 4 1
+
+ */
 
 import java.util.Scanner;
 
@@ -6,17 +14,7 @@ import java.util.Scanner;
  * @author Devlabs Alliance
  *
  */
-
-/*
-            1 2 3 4 5 4 3 2 1
-            2 3 4 5 4 3 2
-            3 4 5 4 3
-            4 5 4
-            5
-            
- */
-
-public class Pattern21 {
+public class Pattern11 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
@@ -26,23 +24,22 @@ public class Pattern21 {
 		pattern(n);
 		s.close();
 
-
 	}
 
-	/**
-	 * @param n
-	 */
 	private static void pattern(int n) {
+		int k=1;
 		// TODO Auto-generated method stub
 		for(int i=1;i<=n;i++)
 		{
-			for(int j=i;j<=n;j++)
+			for(int j=n;j>i;j--)
 			{
-				System.out.print(j+" ");
+				System.out.print(" ");
 			}
-			for(int k=n-1;k>=i;k--)
+			int temp=1;
+			for( k=1;k<=i;k++)
 			{
-				System.out.print(k+" ");
+				System.out.print(temp+" ");
+				temp=temp*(i-k)/k;
 			}
 			System.out.println();
 		}

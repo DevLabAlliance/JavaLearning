@@ -1,5 +1,9 @@
 package com.dla;
 import java.util.*;
+/**
+ * @author Devlabs Alliance
+ *
+ */
 
 
 	//java program to right rotate an array
@@ -9,6 +13,23 @@ import java.util.*;
   
 
 public class RightRotation {
+	public static void main(String[] args) {
+		Scanner s= new Scanner(System.in);
+		System.out.println("Enter the no of elements you want to enter ");
+		int n= s.nextInt();
+		int arr[]= new int[n];
+		System.out.println("Enter the no of positions by which you have to rotate the array ");
+		int n1=s.nextInt();
+		
+		System.out.println("Enter the elements ");
+		for(int i=0;i<n;i++)
+		{
+			arr[i]=s.nextInt();
+		}
+		right(arr,n1);
+		s.close();
+	}
+
 	public  static  void right(int []array,int n)
 	{
 	for(int i=0;i<n;i++)
@@ -31,21 +52,5 @@ public class RightRotation {
 	}
 		
 	}
-public static void main(String[] args) {
-	Scanner s= new Scanner(System.in);
-	System.out.println("Enter the no of elements you want to enter ");
-	int n= s.nextInt();
-	int arr[]= new int[n];
-	System.out.println("Enter the no of positions by which you have to rotate the array ");
-	int n1=s.nextInt();
-	
-	System.out.println("Enter the elements ");
-	for(int i=0;i<n;i++)
-	{
-		arr[i]=s.nextInt();
-	}
-	right(arr,n1);
-	s.close();
-}
 
 }

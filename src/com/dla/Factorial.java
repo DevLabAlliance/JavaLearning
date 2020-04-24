@@ -1,6 +1,11 @@
 package com.dla;
+
 import java.util.Scanner;
 //
+/**
+ * @author Devlabs Alliance
+ *
+ */
 public class Factorial {
 	public static void main(String []args)
 	{
@@ -9,6 +14,7 @@ public class Factorial {
 		System.out.println("Enter the number : ");
 		Scanner sc=new Scanner(System.in);
 		n=sc.nextInt();
+		sc.close();
 		for(int i=1;i<=n;i++)
 		{
 			fact=fact*i;

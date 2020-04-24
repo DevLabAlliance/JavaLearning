@@ -1,6 +1,16 @@
 package com.dla;
 
+
+/**
+ * @author Devlabs Alliance
+ *
+ */
 public class Pattern {
+	public static void main(String[] args)
+	{
+		Pattern.pattern(10);
+	}
+
 	public static void pattern(int n)
 	{
 		for(int i=1;i<=n;i++)
@@ -12,10 +22,6 @@ public class Pattern {
 			System.out.println();
 		}
 		
-	}
-	public static void main(String[] args)
-	{
-		Pattern.pattern(10);
 	}
 
 }

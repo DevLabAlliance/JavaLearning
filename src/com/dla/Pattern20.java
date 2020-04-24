@@ -1,21 +1,16 @@
 package com.dla;
-/*
- 
-        1
-        1 2 1
-        1 2 3 2 1
-        1 2 3 4 3 2 1
-        
- */
-import java.util.*;
 
+import java.util.Scanner;
 
 /**
  * @author Devlabs Alliance
  *
  */
-public class Pattern12 {
+
+public class Pattern20 {
+
 	public static void main(String[] args) {
+		// TODO Auto-generated method stub
 		Scanner s = new Scanner(System.in);
 		System.out.println("Enter the number of rows ");
 		int n=s.nextInt();
@@ -29,19 +24,16 @@ public class Pattern12 {
 	 */
 	private static void pattern(int n) {
 		// TODO Auto-generated method stub
-		
 		for(int i=1;i<=n;i++)
 		{
-			for(int j=1;j<i;j++)
-			{
-			System.out.print(j+" ");	
+			for(int j=n;j>i;j--) {
+				System.out.print(1+" ");
 			}
-			for(int k=i;k>=1;k--)
+			for(int k=1;k<=i;k++)
 			{
-				System.out.print(k+" ");
-				
+				System.out.print(i+" ");
 			}
-		System.out.println();
+			System.out.println();
 		}
 		
 	}

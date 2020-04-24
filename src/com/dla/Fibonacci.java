@@ -2,6 +2,11 @@ package com.dla;
 
 import java.util.Scanner;
 
+
+/**
+ * @author Devlabs Alliance
+ *
+ */
 public class Fibonacci {
 
 	public static void main(String []args){
@@ -16,7 +21,7 @@ public class Fibonacci {
 			int n;
 			System.out.println("Enter the count of the numbers");
 			n = sc.nextInt();
-		
+		sc.close();
 		int a=0,b=1,c,i;
 		System.out.print(a+" "+b);
 		

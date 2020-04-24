@@ -2,6 +2,10 @@ package com.dla;
 
 import java.util.Scanner;
 
+/**
+ * @author Devlabs Alliance
+ *
+ */
 public class LowerTriangle {
 	public static void main(String[] args) {
 		
@@ -35,6 +39,11 @@ public class LowerTriangle {
 	lowertri(mat,rows,cols);		
 	}
 
+	/**
+	 * @param mat
+	 * @param rows
+	 * @param cols
+	 */
 	private static void lowertri(int[][] mat, int rows, int cols) {
 		// TODO Auto-generated method stub
 		System.out.println(" The lower triangular matrix is ");
