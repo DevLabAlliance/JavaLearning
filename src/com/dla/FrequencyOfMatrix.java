@@ -8,12 +8,12 @@ package com.dla;
  * 
  *
  */
-public class Frequencyinamatrix {
+public class FrequencyOfMatrix {
 	// TO FIND FREQUENCY OF AN ODD AND EVEN INTEGER IN A MATRIX
 
 	public static void main(String ar[]) {
 		int a[][] = { { 1, 2, 3 }, { 4, 5, 6 }, { 7, 8, 9 } };// initializing the array
-		Frequencyinamatrix f = new Frequencyinamatrix();
+		FrequencyOfMatrix f = new FrequencyOfMatrix();
 		f.freq(a);
 
 	}

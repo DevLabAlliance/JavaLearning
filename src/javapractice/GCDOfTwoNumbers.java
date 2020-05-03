@@ -7,7 +7,7 @@ import java.util.*;
  */
 //Greatest common divisor 
 	//for eg 55,22    here the gcd is 11
-public class GCDoftwonumbers {
+public class GCDOfTwoNumbers {
 public static void main(String[] args) {
 		
 		Scanner s = new Scanner(System.in);

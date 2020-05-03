@@ -6,7 +6,7 @@ import java.util.*;
  * @author Devlabs Alliance
  *
  */
-public class BubbleSortonNumbers {
+public class BubbleSortOnNumbers {
 	public static void main(String[] args) {
 		Scanner s = new Scanner(System.in);
 		System.out.println("Enter the number of integers you want to sort");

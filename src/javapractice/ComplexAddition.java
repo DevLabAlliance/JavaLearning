@@ -6,7 +6,7 @@ import java.util.*;
  * @author Devlabs Alliance
  *
  */
-public class Complexaddition {
+public class ComplexAddition {
 	public static void main(String[] args) {
 		Scanner s=new Scanner(System.in);
 		System.out.println("Enter the real part of a number1 ");
