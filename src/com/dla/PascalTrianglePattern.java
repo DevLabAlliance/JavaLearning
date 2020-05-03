@@ -1,4 +1,11 @@
 package com.dla;
+import java.util.Scanner;
+
+/**
+ * @author Devlabs Alliance
+ *
+ */
+
 /*   Pascal triangle
                        1
                       1 1
@@ -8,13 +15,9 @@ package com.dla;
 
  */
 
-import java.util.Scanner;
 
-/**
- * @author Devlabs Alliance
- *
- */
-public class Pattern11 {
+
+public class PascalTrianglePattern {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
@@ -26,6 +29,9 @@ public class Pattern11 {
 
 	}
 
+	/**
+	 * @param n
+	 */
 	private static void pattern(int n) {
 		int k=1;
 		// TODO Auto-generated method stub
