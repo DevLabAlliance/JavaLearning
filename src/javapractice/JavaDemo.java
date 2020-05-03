@@ -5,7 +5,7 @@ package javapractice;
  * @author Devlabs Alliance
  *
  */
-public class Javademo implements  FunnInter {           //while giving error still working???????
+public class JavaDemo implements  FunnInter {           //while giving error still working???????
 	//this class must implement all the methods of an interface
 
 
@@ -22,7 +22,7 @@ public class Javademo implements  FunnInter {           //while giving error sti
 	}
 	public static void main(String[] args)
 	{int jam=98;
-		Javademo f=new Javademo();
+		JavaDemo f=new JavaDemo();
 		f.say("hello ");  // here we don't need to mention public in method
 		f.mull(6);  // overriding this abstract method (While overriding the abstract method we have to mention public in method)
 		f.methi();//here we are able to call this method as functional interface extends interface

@@ -2,10 +2,11 @@ package javapractice;
 import java.util.*;
 
 /**
- * @author Devlabs Alliance
+ * @author DevLabs Alliance
  *
  */
-public class SumandAverage {
+//java program to find the sum and average of numbers 
+public class SumAndAverage {
 	public static void main(String[] args) {
 		Scanner s=new Scanner(System.in);
 		System.out.println("Enter the number ");

@@ -3,7 +3,7 @@ package com.dla;
 
 import java.util.Scanner;
 /**
- * @author Devlabs Alliance
+ * @author DevLabs Alliance
  *
  */
 

@@ -5,11 +5,11 @@ package javapractice;
  * @author Devlabs Alliance
  *
  */
-public class Occurencesofchar {
+public class OccurencesOfCharacter {
 	public static void main(String[] args)
 	{
 		String str="Hello there";
-		Occurencesofchar.occur(str);// calling the static method
+		OccurencesOfCharacter.occur(str);// calling the static method
 		
 	}
 

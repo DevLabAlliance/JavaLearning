@@ -7,7 +7,7 @@ import java.util.Scanner;
  * @author Devlabs Alliance
  *
  */
-public class SubsetsofaString {
+public class SubsetsOfString {
 public static void main(String[] args) {
 	Scanner s = new Scanner(System.in);
 	System.out.println("Enter the string ");

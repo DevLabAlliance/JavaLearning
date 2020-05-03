@@ -1,15 +1,15 @@
-package javapractice;
+package com.dla;
 
 //Reverse a string using recursion
 /**
  * @author Devlabs Alliance
  *
  */
-public class Reverseastring {
+public class ReverseString {
 	public static void main(String[] args)
 	{
 		String s="Hello";
-		System.out.println(Reverseastring.reverse(s));  
+		System.out.println(ReverseString.reverse(s));  
 	}
 	//method for reversing a string
 	/**

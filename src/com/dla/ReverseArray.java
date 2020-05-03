@@ -1,4 +1,4 @@
-package javapractice;
+package com.dla;
 import java.util.*;
 
 
@@ -6,7 +6,7 @@ import java.util.*;
  * @author Devlabs Alliance
  *
  */
-public class ReversinganArray {
+public class ReverseArray {
 	
 	public static void main(String[] args)
 	{

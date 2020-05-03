@@ -4,11 +4,11 @@ package com.dla;
  *
  */
 //TO FIND SUM OF EACH ROW AND EACH COLUMN
-public class Suminamatrix {
+public class SumInAMatrix {
 	 
     public static void main(String ar[])
    	{
-    	Suminamatrix s=new Suminamatrix();
+    	SumInAMatrix s=new SumInAMatrix();
     	
     int b[][]= {{1,2,3},{4,5,6},{7,8,9}};
     

@@ -1,13 +1,10 @@
 package com.dla;
-
-
-
-	import java.util.Scanner;
+import java.util.Scanner;
 	/**
-	 * @author Devlabs Alliance
+	 * @author DevLabs Alliance
 	 *
 	 */
-	public class Lcmoftwonumbers {
+	public class LcmOfTwoNumbers{
 		public static void main(String args[]) {
 			int a,b,l;
 			System.out.println("Enter the number which lcm has to be found");

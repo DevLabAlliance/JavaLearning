@@ -1,4 +1,5 @@
 package com.dla;
+import java.util.*;
 /*
  1
  22
@@ -7,11 +8,11 @@ package com.dla;
  55555
  
  */
-import java.util.*;
+
 
 
 /**
- * @author Devlabs Alliance
+ * @author DevLabs Alliance
  *
  */
 public class Pattern1 {
